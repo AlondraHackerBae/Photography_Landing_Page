@@ -79,3 +79,12 @@ button:hover {
 img {
   filter: grayscale(100%);
 }
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 50px;
+  opacity: 0.3;
+}
+footer a {
+  color: white;
+}
