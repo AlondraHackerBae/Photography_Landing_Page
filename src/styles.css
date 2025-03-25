@@ -1,24 +1,48 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #000000;
   color: #ffffff;
 }
 .header {
   background-image: url("chopsticks.jpg");
-  filter: grayscale(100%);
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-position: right 60% bottom 65%;
-  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  filter: grayscale(100%);
   margin-bottom: 80px;
   padding: 120px;
+  text-align: center;
 }
 nav {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
+  padding: 15px;
+  width: 100%;
 }
-.links {
-  color: red !important;
+.navbar-brand {
+  font-size: 30px;
+  margin: -90px;
+  margin-top: -300px;
+}
+ul {
+  margin: -90px;
+  margin-top: -300px;
+}
+li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 0px !important;
+}
+li a {
+  color: white !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: grey !important;
 }
 h1 {
   font-size: 70px;
@@ -26,16 +50,16 @@ h1 {
 }
 h2 {
   font-size: 20px;
+  letter-spacing: 5px;
   margin: 0px;
   padding: 30px;
-  letter-spacing: 5px;
 }
 button {
-  border-radius: 40px;
-  padding: 10px 30px;
   border: none;
-  margin: 20px;
+  border-radius: 40px;
   cursor: pointer;
+  margin: 20px;
+  padding: 10px 30px;
 }
 p {
   margin-top: 10px;
