@@ -69,10 +69,13 @@ button:hover {
   color: #ffffff;
   transition: all 0.5s ease-in-out;
 }
-.container {
+.gallery {
+  max-width: 60%;
+  margin: 0 auto;
   text-align: center;
+  display: grid;
+  grid-template-rows: 300px 250px 250px;
 }
 img {
   filter: grayscale(100%);
-  size: 30px;
 }
