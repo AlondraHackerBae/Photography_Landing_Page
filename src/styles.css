@@ -123,6 +123,7 @@ footer a {
     grid-template-rows: auto;
     margin: 0 auto;
     text-align: center;
-    width: 50px !important;
+    width: 100px !important;
+    height: 30px !important;
   }
 }
