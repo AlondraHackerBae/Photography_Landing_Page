@@ -97,9 +97,6 @@ footer a {
   .navbar-brand {
     display: none;
   }
-  ul {
-  }
-
   h1 {
     font-size: 30px;
     letter-spacing: 5px;
@@ -126,10 +123,6 @@ footer a {
     grid-template-rows: auto;
     margin: 0 auto;
     text-align: center;
-    height: 30px;
-  }
-  footer {
-    font-size: 10px;
-    color: yellow !important;
+    width: 50px !important;
   }
 }
