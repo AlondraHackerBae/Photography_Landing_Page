@@ -125,8 +125,8 @@ footer a {
     display: grid;
     grid-template-rows: auto;
     margin: 0 auto;
-    max-width: 40%;
     text-align: center;
+    height: 30px;
   }
   footer {
     font-size: 10px;
