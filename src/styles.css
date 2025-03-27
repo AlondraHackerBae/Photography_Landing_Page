@@ -176,6 +176,9 @@ footer a {
     top: -30px;
     left: 80px;
   }
+  .button-about a {
+    all: unset;
+  }
   .gallery {
     display: grid;
     grid-template-rows: auto;
