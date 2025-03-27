@@ -15,6 +15,12 @@ body {
   padding: 120px;
   text-align: center;
 }
+.about-me {
+  background-color: rgba(84, 83, 83, 0.3);
+  text-align: left;
+  max-width: 90%;
+  margin: 0 auto;
+}
 nav {
   align-items: center;
   display: flex;
@@ -27,7 +33,13 @@ nav {
   margin: -90px;
   margin-top: -300px;
 }
-ul {
+.navbar-brand-about {
+  font-size: 30px;
+  margin-top: -30px;
+  color: white !important;
+  text-decoration: none !important;
+}
+.index-ul {
   margin: -90px;
   margin-top: -300px;
 }
@@ -49,11 +61,22 @@ h1 {
   letter-spacing: 8px;
   text-align: center;
 }
+.h1-about {
+  font-size: 70px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 80px;
+}
 h2 {
   font-size: 20px;
   letter-spacing: 5px;
   margin: 0px;
   padding: 30px;
+}
+.h2-about {
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-align: left;
 }
 button {
   border: none;
@@ -68,6 +91,10 @@ button a {
 p {
   margin-top: 10px;
 }
+.p-about {
+  text-align: left;
+  padding: 20px;
+}
 button:hover {
   background-color: #000000;
   color: #ffffff;
@@ -79,6 +106,12 @@ button:hover {
   margin: 0 auto;
   max-width: 60%;
   text-align: center;
+}
+.gallery-about {
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  max-width: 60%;
 }
 img {
   filter: grayscale(100%);
