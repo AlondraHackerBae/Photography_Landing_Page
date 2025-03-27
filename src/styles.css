@@ -165,7 +165,7 @@ footer a {
   }
   .p-contact {
     display: contents;
-    margin: 0 auto;
+    justify-content: center;
   }
   button {
     text-align: center;
