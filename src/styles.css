@@ -179,6 +179,9 @@ footer a {
   .button-about a {
     color: black !important;
   }
+  .button-about a:hover {
+    color: white !important;
+  }
   .gallery {
     display: grid;
     grid-template-rows: auto;
