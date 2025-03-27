@@ -163,6 +163,9 @@ footer a {
   p {
     display: none;
   }
+  .p-contact {
+    display: contents;
+  }
   button {
     text-align: center;
     margin-top: 70px;
