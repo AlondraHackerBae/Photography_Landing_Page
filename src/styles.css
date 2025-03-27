@@ -171,6 +171,11 @@ footer a {
     text-align: center;
     margin-top: 70px;
   }
+  .button-about {
+    position: relative;
+    top: -30px;
+    left: 80px;
+  }
   .gallery {
     display: grid;
     grid-template-rows: auto;
